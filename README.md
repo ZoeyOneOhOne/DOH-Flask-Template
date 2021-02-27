@@ -17,6 +17,7 @@ Using a virtual environment is always a good practice as it keeps your project d
 ## Install Flask:
 ### `python -m pip install Flask`
 
+Now create a .py file and write some code.
 
 # Installing this template
 
