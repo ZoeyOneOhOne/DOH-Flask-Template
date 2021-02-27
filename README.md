@@ -22,7 +22,7 @@ Now create a .py file and write some code.
 # Installing this template
 
 
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
