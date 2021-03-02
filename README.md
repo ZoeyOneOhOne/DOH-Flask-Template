@@ -12,6 +12,8 @@ Using a virtual environment is always a good practice as it keeps your project d
 
 ## Create a new virtual environment and activate it:
 ### `virtualenv env`
+or if this doesn't work you may need to use :
+### `-m virtualenv venv`
 ### `source env/Scripts/activate`
 
 ## Install Flask:
