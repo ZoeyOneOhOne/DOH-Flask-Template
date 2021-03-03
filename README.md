@@ -1,34 +1,33 @@
 # Getting Started with Flask
 
-## Install virtualenv
+## Setting up the project environment
 
-### `python -m pip install virtualenv`
+If you don't already have it, install Python version 3 or above here: https://www.python.org/downloads/
 
-Using a virtual environment is always a good practice as it keeps your project dependencies cleanly managed, segregated from the global Python modules.
+Using a virtual environment is always a good practice as it keeps your project dependencies cleanly managed, segregated from the global Python modules. However, after Python 3 the virtual environment is built into python and does not need to be manually installed.
 
 ## Create a new directory for the project:
 ### `mkdir my-flask-application`
 ### `cd my-flask-application`
 
 ## Create a new virtual environment and activate it:
-### `virtualenv env`
-or if this doesn't work you may need to use :
-### `-m virtualenv venv`
-### `source env/Scripts/activate`
+### `python -m venv env`
+Activate it:
+### `env\scripts\activate`
 
 ## Install Flask:
-### `python -m pip install Flask`
+### `pip install Flask`
 
 Now create a .py file and write some code.
+
+## Run the Flask application:
+### `python app.py`
+
+You can now view the application at localhost:5000.
 
 # Installing this template
 
 
-# Available Scripts
 
-In the project directory, you can run:
-
-To start the application on Windows
-### `FLASK_APP=app.py flask run`
 
 
