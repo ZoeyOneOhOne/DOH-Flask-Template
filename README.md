@@ -27,7 +27,20 @@ You can now view the application at localhost:5000.
 
 # Installing this template
 
+To install this template all you need to do is clone the repo, navigate to the project folder, and install Flask there:
 
+### `pip install Flask`
+
+Flask may already be installed which is still fine. If this results in an error that looks something like this:
+
+ WARNING: Failed to write executable - trying to use .deleteme logic
+ ERROR: Could not install packages due to an OSError: [WinError 2] The system cannot find the file specified: 'c:\\python39\\Scripts\\flask.exe' -> 'c:\\python39\\Scripts\\flask.exe.deleteme'
+
+ Try running the application anyway. This is not a critical error.
+
+ Run the application:
+
+### `python app.py` 
 
 
 
